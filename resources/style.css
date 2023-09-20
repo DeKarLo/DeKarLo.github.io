@@ -8,6 +8,10 @@ body {
     );
 }
 
+img {
+    border-radius: 16px;
+}
+
 .container {
     margin-left: 50px;
     margin-right: 50px;
@@ -39,7 +43,14 @@ body {
 .recipe img {
     width: 30%;
     margin-left: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .divider {
@@ -50,7 +61,7 @@ body {
 }
 
 .divided__block {
-    width: 23%;
+    width: 21%;
     text-align: center;
     margin-left: 8px;
 }
@@ -150,7 +161,7 @@ a:hover {
 }
 
 table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
 }
 
@@ -159,10 +170,11 @@ td {
     border: 1px solid #000000;
     padding: 8px;
     text-align: left;
+    background-color: lightgray;
 }
 
 th {
-    background-color: #ffffff;
+    background-color: gray;
 }
 
 footer {
@@ -170,6 +182,11 @@ footer {
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
 }
 
 footer h2 {
